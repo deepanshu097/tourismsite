@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <title>Adventure Tour</title>
 </head>
@@ -164,29 +164,29 @@
 
 <a id="contact">
 <section class="my-4 ">
-<div class="w-50 m-auto border rounded p-4 form-bg  form">
+<div class=" m-auto border rounded p-4 form-bg col-lg-6 col-md-6 col-11  form">
   <div class="my-4 text-light text-center">
     <h3 >Contact us</h3>
   </div>
   <form method="post" action="contact.php">
   <div class="form-group d-flex">
-    <label class="form-label text-light col-lg-2 col-md-10 col-3">Name</label>
+    <label class="form-label text-light col-lg-2 col-md-10 col-4">Name</label>
     <input type=" text" name="name" class="form-control col-lg-10 col-md-10 col-8 " required>
 </div>
 <div class="form-group d-flex">
-    <label class="form-label text-light col-lg-2 col-md-10 col-3">Email </label>
+    <label class="form-label text-light col-lg-2 col-md-10 col-4">Email </label>
     <input type=" Email" name="email" class="form-control col-lg-10 col-md-10 col-8 " required>
 </div>
 <div class="form-group d-flex">
-    <label class="form-label text-light col-lg-2 col-md-10 col-3">Phone no.</label>
+    <label class="form-label text-light col-lg-2 col-md-10 col-4">Phone no.</label>
     <input type=" text" name="phone" class="form-control  col-lg-10 col-md-10 col-8 " required>
 </div>
 <div class="form-group d-flex">
-    <label class="form-label text-light col-lg-2 col-md-10 col-3 ">Message</label>
-    <textarea type="text" name="message" class="form-control col-lg-10 col-md-10 col-8 "></textarea>
+    <label class="form-label text-light col-lg-2 col-md-10 col-4 ">Message</label>
+    <textarea type="text" name="message" class="form-control col-lg-10 col-md-10 col-8 " rows="5"></textarea>
 </div>
 <div class="form-group text-center my-3  ">
-    <button type=" submit" class="form-control btn col-lg-2 col-md-2 col-2 text-center rounded-3"  >submit</button>
+    <button type=" submit" class="form-control btn col-lg-2 col-md-2 col-4 text-center rounded-3"  >submit</button>
 </div>
 </form>
 </div>
@@ -194,7 +194,7 @@
 </a>
 
 <a id="about" class=" my-4" >
-<section class="footer text-light container-fluid footer-bg bg-dark my-4">
+<section class="footer text-light container-fluid footer-bg bg-dark my-4 col-md-12 col-lg-12 col-12">
   <div class="text-center p-4">
   <h4>About</h4>
   <p>This is Deepanshu Yadav</p>
@@ -202,6 +202,7 @@
   </div>
 </section>
 </a>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>	
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -12,6 +12,7 @@
   </head>
   <body>
     <h1>success!</h1>
+    <a href="index.php">Home</a>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
